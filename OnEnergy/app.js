@@ -11,8 +11,19 @@
  */
 
 var adapter = require('./adapter');
+var jf = require('jsonfile');
+
+
 
 // parse XML data and output the JSON object
-adapter.parseFromFile('./hydro_one_daily.xml', function(usageData) {
-	console.log(usageData);
+adapter.parseFromFile('./data/hydro_one_daily.xml', function(usageData) {
+	// write the JSON object to file
+	jf.writeFile('data.json', usageData, function(err) {
+		if(err) {
+			console.log(err);
+		} else {
+			console.log('Parse complete. Please check data.json in the project directory.');
+		}
+		
+	});
 });

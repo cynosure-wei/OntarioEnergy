@@ -1,0 +1,899 @@
+{
+  "localTime": {
+    "id": "/LocalTimeParameters/01",
+    "name": "DST For North America",
+    "dstEndRule": "B40E2000",
+    "dstOffset": "3600",
+    "dstStartRule": "360E2000",
+    "tzOffset": "-18000"
+  },
+  "meterReadings": {
+    "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/3": {
+      "name": "Hourly Electricity Consumption",
+      "dataId": "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/3/IntervalBlock",
+      "readingTypeId": "/ReadingType/3",
+      "data": {
+        "interval": [
+          {
+            "duration": [
+              "86400"
+            ],
+            "start": [
+              "1367557200"
+            ]
+          }
+        ],
+        "intervalReading": [
+          {
+            "cost": [
+              "1753"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367557200"
+                ]
+              }
+            ],
+            "value": [
+              "261600"
+            ]
+          },
+          {
+            "cost": [
+              "1785"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367560800"
+                ]
+              }
+            ],
+            "value": [
+              "266400"
+            ]
+          },
+          {
+            "cost": [
+              "1934"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367564400"
+                ]
+              }
+            ],
+            "value": [
+              "288600"
+            ]
+          },
+          {
+            "cost": [
+              "3095"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367568000"
+                ]
+              }
+            ],
+            "value": [
+              "462000"
+            ]
+          },
+          {
+            "cost": [
+              "2167"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367571600"
+                ]
+              }
+            ],
+            "value": [
+              "323400"
+            ]
+          },
+          {
+            "cost": [
+              "1910"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367575200"
+                ]
+              }
+            ],
+            "value": [
+              "285000"
+            ]
+          },
+          {
+            "cost": [
+              "6098"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367622000"
+                ]
+              }
+            ],
+            "value": [
+              "910200"
+            ]
+          },
+          {
+            "cost": [
+              "7529"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367625600"
+                ]
+              }
+            ],
+            "value": [
+              "1123800"
+            ]
+          },
+          {
+            "cost": [
+              "8305"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367629200"
+                ]
+              }
+            ],
+            "value": [
+              "1239600"
+            ]
+          },
+          {
+            "cost": [
+              "5294"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367632800"
+                ]
+              }
+            ],
+            "value": [
+              "790200"
+            ]
+          },
+          {
+            "cost": [
+              "2066"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367636400"
+                ]
+              }
+            ],
+            "value": [
+              "308400"
+            ]
+          }
+        ]
+      },
+      "readingType": {
+        "name": "Energy Delivered (kwh)",
+        "intervalLength": "3600",
+        "kind": "12",
+        "powerOfTenMultiplier": "-3",
+        "uom": "72",
+        "accumulationBehaviour": "4",
+        "commodity": "1",
+        "currency": "124",
+        "dataQualifier": "12",
+        "flowDirection": "1",
+        "phase": "0",
+        "tou": "3"
+      }
+    },
+    "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/1": {
+      "name": "Hourly Electricity Consumption",
+      "dataId": "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/1/IntervalBlock",
+      "readingTypeId": "/ReadingType/1",
+      "data": {
+        "interval": [
+          {
+            "duration": [
+              "86400"
+            ],
+            "start": [
+              "1367593200"
+            ]
+          }
+        ],
+        "intervalReading": [
+          {
+            "cost": [
+              "9047"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367593200"
+                ]
+              }
+            ],
+            "value": [
+              "729600"
+            ]
+          },
+          {
+            "cost": [
+              "6398"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367596800"
+                ]
+              }
+            ],
+            "value": [
+              "516000"
+            ]
+          },
+          {
+            "cost": [
+              "6034"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367600400"
+                ]
+              }
+            ],
+            "value": [
+              "486600"
+            ]
+          },
+          {
+            "cost": [
+              "8452"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367604000"
+                ]
+              }
+            ],
+            "value": [
+              "681600"
+            ]
+          },
+          {
+            "cost": [
+              "37021"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367607600"
+                ]
+              }
+            ],
+            "value": [
+              "2985600"
+            ]
+          },
+          {
+            "cost": [
+              "18540"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367611200"
+                ]
+              }
+            ],
+            "value": [
+              "1495200"
+            ]
+          }
+        ]
+      },
+      "readingType": {
+        "name": "Energy Delivered (kwh)",
+        "intervalLength": "3600",
+        "kind": "12",
+        "powerOfTenMultiplier": "-3",
+        "uom": "72",
+        "accumulationBehaviour": "4",
+        "commodity": "1",
+        "currency": "124",
+        "dataQualifier": "12",
+        "flowDirection": "1",
+        "phase": "0",
+        "tou": "1"
+      }
+    },
+    "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/2": {
+      "name": "Hourly Electricity Consumption",
+      "dataId": "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/2/IntervalBlock",
+      "readingTypeId": "/ReadingType/2",
+      "data": {
+        "interval": [
+          {
+            "duration": [
+              "86400"
+            ],
+            "start": [
+              "1367578800"
+            ]
+          }
+        ],
+        "intervalReading": [
+          {
+            "cost": [
+              "3420"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367578800"
+                ]
+              }
+            ],
+            "value": [
+              "328800"
+            ]
+          },
+          {
+            "cost": [
+              "4262"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367582400"
+                ]
+              }
+            ],
+            "value": [
+              "409800"
+            ]
+          },
+          {
+            "cost": [
+              "4100"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367586000"
+                ]
+              }
+            ],
+            "value": [
+              "394200"
+            ]
+          },
+          {
+            "cost": [
+              "5647"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367589600"
+                ]
+              }
+            ],
+            "value": [
+              "543000"
+            ]
+          },
+          {
+            "cost": [
+              "9167"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367614800"
+                ]
+              }
+            ],
+            "value": [
+              "881400"
+            ]
+          },
+          {
+            "cost": [
+              "5791"
+            ],
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367618400"
+                ]
+              }
+            ],
+            "value": [
+              "556800"
+            ]
+          }
+        ]
+      },
+      "readingType": {
+        "name": "Energy Delivered (kwh)",
+        "intervalLength": "3600",
+        "kind": "12",
+        "powerOfTenMultiplier": "-3",
+        "uom": "72",
+        "accumulationBehaviour": "4",
+        "commodity": "1",
+        "currency": "124",
+        "dataQualifier": "12",
+        "flowDirection": "1",
+        "phase": "0",
+        "tou": "2"
+      }
+    },
+    "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/07": {
+      "name": "Hourly Electricity Consumption",
+      "dataId": "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/07/IntervalBlock",
+      "readingTypeId": "/ReadingType/07",
+      "data": {
+        "interval": [
+          {
+            "duration": [
+              "86400"
+            ],
+            "start": [
+              "1367557200"
+            ]
+          }
+        ],
+        "intervalReading": [
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367557200"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367560800"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367564400"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367568000"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367571600"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367575200"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367578800"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367582400"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367586000"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367589600"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367593200"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367596800"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367600400"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367604000"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367607600"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367611200"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367614800"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367618400"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367622000"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367625600"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367629200"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367632800"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          },
+          {
+            "timePeriod": [
+              {
+                "duration": [
+                  "3600"
+                ],
+                "start": [
+                  "1367636400"
+                ]
+              }
+            ],
+            "value": [
+              "290450"
+            ]
+          }
+        ]
+      },
+      "readingType": {
+        "name": "Weather (kelvin)",
+        "intervalLength": "3600",
+        "kind": "46",
+        "powerOfTenMultiplier": "-3",
+        "uom": "6"
+      }
+    }
+  },
+  "id": "/RetailCustomer/1/UsagePoint/J2753386",
+  "name": "Meter: J2753386 Hourly Usage",
+  "serviceKind": "Electricity"
+}

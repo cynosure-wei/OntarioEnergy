@@ -95,7 +95,6 @@ module.exports = {
 						// get property id and name
 						var ibId = entryArray[i].link[1].$.href;
 						intervalBlocks[ibId] = {};
-						intervalBlocks[ibId].data = content.IntervalBlock;
 						intervalBlocks[ibId].interval = content.IntervalBlock[0].interval;
 						intervalBlocks[ibId].intervalReading = content.IntervalBlock[0].IntervalReading;
 					}
