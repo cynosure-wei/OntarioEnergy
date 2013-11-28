@@ -95,8 +95,21 @@ module.exports = {
 						// get property id and name
 						var ibId = entryArray[i].link[1].$.href;
 						intervalBlocks[ibId] = {};
-						intervalBlocks[ibId].interval = content.IntervalBlock[0].interval;
-						intervalBlocks[ibId].intervalReading = content.IntervalBlock[0].IntervalReading;
+						intervalBlocks[ibId].interval = content.IntervalBlock[0].interval[0];
+						intervalBlocks[ibId].interval.duration = content.IntervalBlock[0].interval[0].duration[0];
+						intervalBlocks[ibId].interval.start = content.IntervalBlock[0].interval[0].start[0];
+						intervalBlocks[ibId].intervalReading = [];
+						for(var j = 0; j < content.IntervalBlock[0].IntervalReading.length; j++) {
+							var reading = {};
+							reading.timePeriod = {};
+							reading.timePeriod.duration = content.IntervalBlock[0].IntervalReading[j].timePeriod[0].duration[0];
+							reading.timePeriod.start = content.IntervalBlock[0].IntervalReading[j].timePeriod[0].start[0];
+							if(content.IntervalBlock[0].IntervalReading[j].cost) {
+								reading.cost = content.IntervalBlock[0].IntervalReading[j].cost[0];
+							}
+							reading.value = content.IntervalBlock[0].IntervalReading[j].value[0];
+							intervalBlocks[ibId].intervalReading.push(reading);
+						}
 					}
 				}
 				// map all data objects to links
