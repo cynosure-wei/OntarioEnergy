@@ -1,0 +1,461 @@
+{
+  "localTime": {
+    "id": "/LocalTimeParameters/01",
+    "name": "DST For North America",
+    "dstEndRule": "B40E2000",
+    "dstOffset": "3600",
+    "dstStartRule": "360E2000",
+    "tzOffset": "-18000"
+  },
+  "meterReadings": {
+    "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/3": {
+      "name": "Hourly Electricity Consumption",
+      "dataId": "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/3/IntervalBlock",
+      "readingTypeId": "/ReadingType/3",
+      "data": {
+        "interval": {
+          "duration": "86400",
+          "start": "1367557200"
+        },
+        "intervalReading": [
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367557200"
+            },
+            "cost": "1753",
+            "value": "261600"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367560800"
+            },
+            "cost": "1785",
+            "value": "266400"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367564400"
+            },
+            "cost": "1934",
+            "value": "288600"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367568000"
+            },
+            "cost": "3095",
+            "value": "462000"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367571600"
+            },
+            "cost": "2167",
+            "value": "323400"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367575200"
+            },
+            "cost": "1910",
+            "value": "285000"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367622000"
+            },
+            "cost": "6098",
+            "value": "910200"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367625600"
+            },
+            "cost": "7529",
+            "value": "1123800"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367629200"
+            },
+            "cost": "8305",
+            "value": "1239600"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367632800"
+            },
+            "cost": "5294",
+            "value": "790200"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367636400"
+            },
+            "cost": "2066",
+            "value": "308400"
+          }
+        ]
+      },
+      "readingType": {
+        "name": "Energy Delivered (kwh)",
+        "intervalLength": "3600",
+        "kind": "12",
+        "powerOfTenMultiplier": "-3",
+        "uom": "72",
+        "accumulationBehaviour": "4",
+        "commodity": "1",
+        "currency": "124",
+        "dataQualifier": "12",
+        "flowDirection": "1",
+        "phase": "0",
+        "tou": "3"
+      }
+    },
+    "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/1": {
+      "name": "Hourly Electricity Consumption",
+      "dataId": "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/1/IntervalBlock",
+      "readingTypeId": "/ReadingType/1",
+      "data": {
+        "interval": {
+          "duration": "86400",
+          "start": "1367593200"
+        },
+        "intervalReading": [
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367593200"
+            },
+            "cost": "9047",
+            "value": "729600"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367596800"
+            },
+            "cost": "6398",
+            "value": "516000"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367600400"
+            },
+            "cost": "6034",
+            "value": "486600"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367604000"
+            },
+            "cost": "8452",
+            "value": "681600"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367607600"
+            },
+            "cost": "37021",
+            "value": "2985600"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367611200"
+            },
+            "cost": "18540",
+            "value": "1495200"
+          }
+        ]
+      },
+      "readingType": {
+        "name": "Energy Delivered (kwh)",
+        "intervalLength": "3600",
+        "kind": "12",
+        "powerOfTenMultiplier": "-3",
+        "uom": "72",
+        "accumulationBehaviour": "4",
+        "commodity": "1",
+        "currency": "124",
+        "dataQualifier": "12",
+        "flowDirection": "1",
+        "phase": "0",
+        "tou": "1"
+      }
+    },
+    "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/2": {
+      "name": "Hourly Electricity Consumption",
+      "dataId": "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/2/IntervalBlock",
+      "readingTypeId": "/ReadingType/2",
+      "data": {
+        "interval": {
+          "duration": "86400",
+          "start": "1367578800"
+        },
+        "intervalReading": [
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367578800"
+            },
+            "cost": "3420",
+            "value": "328800"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367582400"
+            },
+            "cost": "4262",
+            "value": "409800"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367586000"
+            },
+            "cost": "4100",
+            "value": "394200"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367589600"
+            },
+            "cost": "5647",
+            "value": "543000"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367614800"
+            },
+            "cost": "9167",
+            "value": "881400"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367618400"
+            },
+            "cost": "5791",
+            "value": "556800"
+          }
+        ]
+      },
+      "readingType": {
+        "name": "Energy Delivered (kwh)",
+        "intervalLength": "3600",
+        "kind": "12",
+        "powerOfTenMultiplier": "-3",
+        "uom": "72",
+        "accumulationBehaviour": "4",
+        "commodity": "1",
+        "currency": "124",
+        "dataQualifier": "12",
+        "flowDirection": "1",
+        "phase": "0",
+        "tou": "2"
+      }
+    },
+    "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/07": {
+      "name": "Hourly Electricity Consumption",
+      "dataId": "/RetailCustomer/1/UsagePoint/J2753386/MeterReading/07/IntervalBlock",
+      "readingTypeId": "/ReadingType/07",
+      "data": {
+        "interval": {
+          "duration": "86400",
+          "start": "1367557200"
+        },
+        "intervalReading": [
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367557200"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367560800"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367564400"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367568000"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367571600"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367575200"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367578800"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367582400"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367586000"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367589600"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367593200"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367596800"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367600400"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367604000"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367607600"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367611200"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367614800"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367618400"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367622000"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367625600"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367629200"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367632800"
+            },
+            "value": "290450"
+          },
+          {
+            "timePeriod": {
+              "duration": "3600",
+              "start": "1367636400"
+            },
+            "value": "290450"
+          }
+        ]
+      },
+      "readingType": {
+        "name": "Weather (kelvin)",
+        "intervalLength": "3600",
+        "kind": "46",
+        "powerOfTenMultiplier": "-3",
+        "uom": "6"
+      }
+    }
+  },
+  "id": "/RetailCustomer/1/UsagePoint/J2753386",
+  "name": "Meter: J2753386 Hourly Usage",
+  "serviceKind": "Electricity"
+}

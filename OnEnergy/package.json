@@ -16,6 +16,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-      "xml2js" : "*"
+      "xml2js" : "*",
+      "jsonfile" : "*"
   }
 }
